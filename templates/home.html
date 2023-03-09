@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h2><font color="red">hello world{{name}}</font></h2>
+<form action="add" method="post">
+    {% csrf_token %}
+    1st no:<input type="text" name="num1"><br>
+    2nd no:<input type="text" name="num2"><br>
+    <input type="submit">
+</form>
+
+</body>
+</html>
